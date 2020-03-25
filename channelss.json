@@ -8,6 +8,7 @@
             "developerName": "@Patreon",
             "subtitle": "Watch live TV & events for free with Channels",
             "version": "1.8.0",
+            "beta": true,
             "versionDate": "2020-03-24T00:00:00-00:00",
             "versionDescription": "• Completely redesigned Events tab\n• Most streams will open in the default iOS player instead of in the browser\n• 'Open in VLC' support (VLC app has Chromecast)\n• Reduced app size by 85%! (168 MB -> 22 MB)\n• Smoother loading experience\n• Cleanup and bugfixes",
             "downloadURL": "https://f000.backblazeb2.com/file/altstore/altstore-beta.ipa",
