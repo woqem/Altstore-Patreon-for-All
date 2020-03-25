@@ -2,24 +2,26 @@
     "name": "Channels",
     "identifier": "com.afsimsir.source",
     "apps": [
-        {
-            "name": "chaneldelta",
-            "bundleIdentifier": "com.channelsapp.channels",
-            "developerName": "@afsimsir",
-            "subtitle": "Watch live TV & events for free with Channels",
-            "version": "1.8.0",
-            "versionDate": "2020-03-24T00:00:00-00:00",
-            "versionDescription": "• Completely redesigned Events tab\n• Most streams will open in the default iOS player instead of in the browser\n• 'Open in VLC' support (VLC app has Chromecast)\n• Reduced app size by 85%! (168 MB -> 22 MB)\n• Smoother loading experience\n• Cleanup and bugfixes",
-            "downloadURL": "https://f000.backblazeb2.com/file/altstore/delta-beta.ipa",
-            "localizedDescription": "Channels allows you to watch live TV & sport events for free on your iPhone, iPad or iPod Touch.\nFeatures you will love:\n\n• Daily live events for NBA, NFL, Soccer, UFC and more\n• Categorized live TV channels\n• Daily updated Movies & TV Shows\n\n Follow @channelstheapp on Twitter for more information.",
-            "iconURL": "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/appicon.png",
-            "tintColor": "0093E9",
-            "size": 22000000,
-            "screenshotURLs": [
-                "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/screen1.png",
-                "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/screen2.png",
-                "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/screen3.png",
-                "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/screen4.png"
+    {
+      "name": "Delta",
+      "bundleIdentifier": "com.rileytestut.Delta.Beta",
+      "developerName": "Riley Testut",
+      "subtitle": "Classic games in your pocket.",
+      "version": "1.2b",
+      "versionDate": "2020-02-11T16:30:00-08:00",
+      "versionDescription": "GENERAL\n• Replaces 3D Touch peek/pop with iOS 13 context menus\n\nCONTROLLER SKINS\n• Brand new Nintendo DS controller skin\n• New Quick Save, Quick Load, and Fast Forward inputs for controller skins\n• Apply video filters with controller skins\n• Assign controller skins to individual games",
+      "downloadURL": "https://f000.backblazeb2.com/file/altstore/delta-beta.ipa",
+      "localizedDescription": "The next console for Delta is coming: this beta version of Delta brings support for playing DS games!\n\nDS support currently includes:\n• Playing DS games\n• Save States\n• Hold Button\n\nFeatures I'm still working on:\n• Fast Forward\n• Cheats\n• Controller skin (using placeholder controller skin for now)\n\nPlease report any issues you find to support@altstore.io. Thanks!",
+      "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
+      "tintColor": "8A28F7",
+      "size": 17631726,
+      "beta": true,
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/65600448-f7d9be00-df54-11e9-9e3e-d4c31296da94.PNG",
+        "https://user-images.githubusercontent.com/705880/65601942-e5ad4f00-df57-11e9-9255-1463e0296e46.PNG"
+      ,
+        "https://user-images.githubusercontent.com/705880/65813009-f2ae8600-e183-11e9-9eb7-704effc11173.png",
+        "https://user-images.githubusercontent.com/705880/65601117-58b5c600-df56-11e9-9c19-9a5ba5da54cf.PNG"
             ]
         }
     ],
