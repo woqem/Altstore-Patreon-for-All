@@ -1,11 +1,41 @@
 {
-    "name": "Channels",
-    "identifier": "com.afsimsir.source",
-    "apps": [
+  "name": "Patreon",
+  "identifier": "com.Patreon.woqem",
+  "apps": [
     {
-      "name": "Delta Patreon",
-      "bundleIdentifier": "com.rileytestut.Delta.Patreon",
-      "developerName": "Riley Testut",
+      "name": "AltStore Patreon",
+      "bundleIdentifier": "com.Patreon.AltStore.Beta",
+      "developerName": "Patreon",
+      "subtitle": "An alternative App Store for iOS.",
+      "version": "1.3b2",
+      "versionDate": "2020-03-24T14:00:00-07:00",
+      "versionDescription": "** Requires latest AltServer beta to fully work. Download from https://altstore.io/altserver/beta **\n\nThe next big beta feature is here: AltStore now supports 3rd party app sources! Add sources in the Browse tab to expand the number of apps available to download through AltStore.\n\nNEW FEATURES\n• Initial support for 3rd party sources\n• Activate and deactivate apps via drag & drop\n• Option to remove app extensions from apps to save active app slots\n\nBUG FIXES\n• Fixes issue causing .ipa files to appear disabled in document picker\n• Fixes issue causing refreshing to sometimes not finish when using older AltServer\n• Fixes \"invalid app group\" error when installing apps\n• Removes cached apps after they have been uninstalled\n• Fixes peek & pop on iOS 12\n\nPREVIOUS BETA\n• Adds support for activating/deactivating apps to stay under iOS 13.3.1 active app limit\n• Significantly improves performance when refreshing apps\n• Improves error messages when refreshing apps\n• Improves stability when refreshing apps over WiFi\n\nNOTE: Support for 3rd party sources will be disabled in public versions of AltStore until it is finished.",
+      "downloadURL": "https://f000.backblazeb2.com/file/altstore/altstore-beta.ipa",
+      "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore allows you to install Delta as well as any app (.ipa) directly from the Files app.",
+      "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
+      "tintColor": "018084",
+      "size": 2184796,
+      "beta": true,
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/65605563-2f009d00-df5e-11e9-9b40-1f36135d5c80.PNG",
+        "https://user-images.githubusercontent.com/705880/65605569-30ca6080-df5e-11e9-8dfb-15ebb00e10cb.PNG",
+        "https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
+      ],
+      "permissions": [
+        {
+          "type": "background-fetch",
+          "usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
+        },
+        {
+          "type": "background-audio",
+          "usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
+        }
+      ]
+    },
+    {
+      "name": "Delta",
+      "bundleIdentifier": "com.Patreon.Delta.Beta",
+      "developerName": "Patreon",
       "subtitle": "Classic games in your pocket.",
       "version": "1.2b",
       "versionDate": "2020-02-11T16:30:00-08:00",
@@ -15,26 +45,72 @@
       "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
       "tintColor": "8A28F7",
       "size": 17631726,
+      "beta": true,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
+        }
+      ],
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/65600448-f7d9be00-df54-11e9-9e3e-d4c31296da94.PNG",
         "https://user-images.githubusercontent.com/705880/65601942-e5ad4f00-df57-11e9-9255-1463e0296e46.PNG"
       ,
         "https://user-images.githubusercontent.com/705880/65813009-f2ae8600-e183-11e9-9eb7-704effc11173.png",
         "https://user-images.githubusercontent.com/705880/65601117-58b5c600-df56-11e9-9c19-9a5ba5da54cf.PNG"
-            ]
-        }
-    ],
-    "news": [
+      ]
+    },
+    {
+      "name": "Clip",
+      "bundleIdentifier": "com.Patreon.Clip.Beta",
+      "subtitle": "Manage your clipboard history with ease.",
+      "developerName": "Patreon",
+      "version": "1.0b",
+      "versionDate": "2019-01-24T18:20:00-08:00",
+      "versionDescription": "• Disables notification vibration when sound is disabled for notifications.\n\nAssuming all goes well, this should be the final beta before the public launch! Please report any last minute bugs you find to support@altstore.io.",
+      "downloadURL": "https://f000.backblazeb2.com/file/altstore/clip-beta.ipa",
+      "localizedDescription": "Clip is a simple clipboard manager for iOS. \n\nUnlike other clipboard managers, Clip can continue monitoring your clipboard while in the background. No longer do you need to remember to manually open or share to an app to save your clipboard; just copy and paste as you would normally do, and Clip will have your back.\n\nIn addition to background monitoring, Clip also has these features:\n\n• Save text, URLs, and images copied to the clipboard.\n• Copy, delete, or share any clippings saved to Clip.\n• Customizable history limit.\n\nDownload Clip today, and never worry about losing your clipboard again!",
+      "iconURL": "https://user-images.githubusercontent.com/705880/63391981-5326f800-c37a-11e9-99d8-760fd06bb601.png",
+      "tintColor": "EC008C",
+      "size": 462771,
+      "beta": true,
+      "permissions": [
         {
-            "title": "Ma bite now available on AltStore!",
-            "identifier": "channels-x-altstore",
-            "caption": "Live TV you're used to, better.",
-            "tintColor": "0093E9",
-            "imageURL": "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/banner.png",
-            "appID": "com.channelsapp.channels",
-            "date": "2020-03-25",
-            "notify": true
+          "type": "background-audio",
+          "usageDescription": "Allows Clip to continuously monitor your clipboard in the background."
         }
-    ],
-    "userInfo": {}
+      ],
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/63391950-34286600-c37a-11e9-965f-832efe3da507.png",
+        "https://user-images.githubusercontent.com/705880/70830209-8e738980-1da4-11ea-8b3b-6e5fbc78adff.png"
+      ]
+    },
+    {
+      "name": "Delta Lite",
+      "bundleIdentifier": "com.Patreon.Delta.Lite.Beta",
+      "developerName": "Patreon",
+      "subtitle": "The 80s (and 90s) in your pocket.",
+      "version": "1.0b",
+      "versionDate": "2019-09-25",
+      "versionDescription": "Adds support for GBC games in addition to NES.",
+      "downloadURL": "https://f000.backblazeb2.com/file/altstore/delta-lite-beta.ipa",
+      "localizedDescription": "Delta Lite brings NES and GBC games to iOS.",
+      "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
+      "tintColor": "8A28F7",
+      "size": 16509767,
+      "beta": true,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
+        }
+      ],
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/65599562-fe673600-df52-11e9-9cfb-b60a11568baf.PNG",
+        "https://user-images.githubusercontent.com/705880/65599567-01fabd00-df53-11e9-8654-f075c0f32c59.PNG"
+      ]
+    }
+  ],
+  "userInfo": {}
+  }
 }
