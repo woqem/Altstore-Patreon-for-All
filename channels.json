@@ -33,7 +33,7 @@
       ]
     },
     {
-      "name": "Delta",
+      "name": "Delta Beta Patreon",
       "bundleIdentifier": "com.Patreon.Delta.Beta",
       "developerName": "Patreon",
       "subtitle": "Classic games in your pocket.",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "name": "Clip",
+      "name": "Clip Patreon",
       "bundleIdentifier": "com.Patreon.Clip.Beta",
       "subtitle": "Manage your clipboard history with ease.",
       "developerName": "Patreon",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "name": "Delta Lite",
+      "name": "Delta Lite Patreon",
       "bundleIdentifier": "com.Patreon.Delta.Lite.Beta",
       "developerName": "Patreon",
       "subtitle": "The 80s (and 90s) in your pocket.",
@@ -113,4 +113,3 @@
   ],
   "userInfo": {}
   }
-}
