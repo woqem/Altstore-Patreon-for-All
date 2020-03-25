@@ -3,8 +3,8 @@
     "identifier": "com.afsimsir.source",
     "apps": [
     {
-      "name": "Delta",
-      "bundleIdentifier": "com.rileytestut.Delta.Beta",
+      "name": "Delta Patreon",
+      "bundleIdentifier": "com.rileytestut.Delta.Patreon",
       "developerName": "Riley Testut",
       "subtitle": "Classic games in your pocket.",
       "version": "1.2b",
@@ -15,7 +15,6 @@
       "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
       "tintColor": "8A28F7",
       "size": 17631726,
-      "beta": true,
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/65600448-f7d9be00-df54-11e9-9e3e-d4c31296da94.PNG",
         "https://user-images.githubusercontent.com/705880/65601942-e5ad4f00-df57-11e9-9255-1463e0296e46.PNG"
